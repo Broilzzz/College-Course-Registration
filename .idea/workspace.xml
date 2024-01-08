@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Course_RegisterTaskation:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d39274fd-a986-4c21-b1e4-14ec45a04f97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAOimp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAOimp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/StudentDAOimp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/db/DBconnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/Admin_login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/CoursesAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/CoursesDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyCourseAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyStudentAllow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyStudentRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentCourseRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/users/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/users/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/users/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-j-8.0.33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/coursesmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/coursestemplate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/facultyTemplate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/facultymodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/studentmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin_login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/components/allcss.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/components/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/faculty_course_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/faculty_homepage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/faculty_login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/faculty_navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/green3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/green4.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/homepagePic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/student.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/teacher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/template.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/signup.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/studentCourseAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student_home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student_login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student_navbar.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2aLo6vkBku5q4mt8IPRFXcrl16V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 10.1.17.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ahila/IntellijProjects/Course_RegisterTaskation/src/main/webapp/admin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ahila\IntellijProjects\Course_RegisterTaskation\src\main\webapp\admin" />
+      <recent name="C:\Users\ahila\IntellijProjects\Course_RegisterTaskation\src\main\webapp\img" />
+      <recent name="C:\Users\ahila\IntellijProjects\Course_RegisterTaskation\src\main\webapp\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ahila\IntellijProjects\Course_RegisterTaskation\src\main\webapp\img" />
+      <recent name="C:\Users\ahila\IntellijProjects\Course_RegisterTaskation\src\main\webapp\components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.17" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.17" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Course_RegisterTaskation:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Course_RegisterTaskation_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b637507a-cc5b-4199-96cb-9f821df9a38e" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58338" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Course_RegisterTaskation:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-3183f394aec4-f0552fc0" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d39274fd-a986-4c21-b1e4-14ec45a04f97" name="Changes" comment="" />
+      <created>1704107051907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704107051907</updated>
+      <workItem from="1704107053011" duration="768000" />
+      <workItem from="1704107842599" duration="32352000" />
+      <workItem from="1704365450600" duration="6619000" />
+      <workItem from="1704386467628" duration="8057000" />
+      <workItem from="1704433033727" duration="1541000" />
+      <workItem from="1704463552525" duration="14544000" />
+      <workItem from="1704481048942" duration="1765000" />
+      <workItem from="1704518240184" duration="1621000" />
+      <workItem from="1704519872603" duration="46354000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
