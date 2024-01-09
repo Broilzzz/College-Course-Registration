@@ -44,14 +44,20 @@ public class FacultyDAOimp implements  FacultyDAO{
     @Override
     public boolean removeFaculty(String faculty_id) {
         boolean f = false;
-        try{
-            String query = "DELETE FROM teachers WHERE faculty_id = ?";
-            PreparedStatement preparedStatement = conn.prepareStatement(query);
-            preparedStatement.setString(1,faculty_id);
-            int rows = preparedStatement.executeUpdate();
+        try {
+            // Delete from student_courses first
+            String deleteStudentCoursesQuery = "DELETE FROM student_courses WHERE faculty_id = ?";
+            try (PreparedStatement studentCoursesStatement = conn.prepareStatement(deleteStudentCoursesQuery)) {
+                studentCoursesStatement.setString(1, faculty_id);
+                studentCoursesStatement.executeUpdate();
+            }
 
-            if(rows==1){
-                f= true;
+            // Now delete from teachers
+            String deleteTeacherQuery = "DELETE FROM teachers WHERE faculty_id = ?";
+            try (PreparedStatement teacherStatement = conn.prepareStatement(deleteTeacherQuery)) {
+                teacherStatement.setString(1, faculty_id);
+                int rowsAffected = teacherStatement.executeUpdate();
+                f = rowsAffected > 0;
             }
         }catch (Exception e){
             e.printStackTrace();

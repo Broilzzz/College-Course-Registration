@@ -109,14 +109,20 @@ public class StudentDAOimp implements  StudentDAO {
     @Override
     public boolean removeStudent(String studentid) {
         boolean f = false;
-        try{
-            String query = "DELETE FROM students WHERE studentid = ?";
-            PreparedStatement preparedStatement = conn.prepareStatement(query);
-            preparedStatement.setString(1,studentid);
-            int rows = preparedStatement.executeUpdate();
+        try {
+            // Delete from student_courses first
+            String deleteStudentCoursesQuery = "DELETE FROM student_courses WHERE student_id = ?";
+            try (PreparedStatement studentCoursesStatement = conn.prepareStatement(deleteStudentCoursesQuery)) {
+                studentCoursesStatement.setString(1, studentid);
+                studentCoursesStatement.executeUpdate();
+            }
 
-            if(rows==1){
-                f= true;
+            // Now delete from students
+            String deleteStudentQuery = "DELETE FROM students WHERE studentid = ?";
+            try (PreparedStatement studentStatement = conn.prepareStatement(deleteStudentQuery)) {
+                studentStatement.setString(1, studentid);
+                int rowsAffected = studentStatement.executeUpdate();
+                f = rowsAffected > 0;
             }
         }catch (Exception e){
             e.printStackTrace();

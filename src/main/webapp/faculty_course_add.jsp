@@ -121,7 +121,8 @@
 
 <div class="login-page">
     <div class="form">
-        <h2>Add or Remove Courses</h2>
+        <h2>Add Courses</h2>
+        <h5>to remove courses contact admin</h5>
 
         <%
             String err = request.getParameter("err");

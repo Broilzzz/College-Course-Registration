@@ -9,71 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d39274fd-a986-4c21-b1e4-14ec45a04f97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAOimp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAOimp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/StudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/StudentDAOimp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/db/DBconnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/Admin_login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/CoursesAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/CoursesDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyCourseAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyRemove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyStudentAllow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyStudentRemove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentCourseRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentRemove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/users/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/users/Faculty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/users/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-j-8.0.33.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/coursesmodify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/coursestemplate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/facultyTemplate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/facultymodify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/studentmodify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin_login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/components/allcss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/components/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/faculty_course_add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/faculty_homepage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/faculty_login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/faculty_navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/green3.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/green4.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/homepagePic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/student.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/teacher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/template.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/signup.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/studentCourseAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/student_home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/student_login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/student_navbar.jsp" afterDir="false" />
+    <list default="true" id="d39274fd-a986-4c21-b1e4-14ec45a04f97" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentCourseRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAOimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAOimp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAOimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAOimp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/StudentDAOimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/StudentDAOimp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/faculty_course_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/faculty_course_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/student_home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/student_home.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +71,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.17.executor": "Debug",
+    "Tomcat Server.Tomcat 10.1.17.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -150,6 +95,7 @@
       <recent name="C:\Users\ahila\IntellijProjects\Course_RegisterTaskation\src\main\webapp\WEB-INF\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ahila\IntellijProjects\Course_RegisterTaskation\src\main\webapp\student" />
       <recent name="C:\Users\ahila\IntellijProjects\Course_RegisterTaskation\src\main\webapp\img" />
       <recent name="C:\Users\ahila\IntellijProjects\Course_RegisterTaskation\src\main\webapp\components" />
     </key>
@@ -235,11 +181,24 @@
       <workItem from="1704463552525" duration="14544000" />
       <workItem from="1704481048942" duration="1765000" />
       <workItem from="1704518240184" duration="1621000" />
-      <workItem from="1704519872603" duration="46354000" />
+      <workItem from="1704519872603" duration="51697000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1704742768848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704742768848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

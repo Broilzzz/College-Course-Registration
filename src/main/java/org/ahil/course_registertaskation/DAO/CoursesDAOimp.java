@@ -44,15 +44,39 @@ public class CoursesDAOimp implements CoursesDAO {
 
     @Override
     public boolean removeCourse(String coursecode) {
-        try{
+
+        try {
             Connection conn = DBconnect.getConn();
-            String query = "DELETE FROM courses WHERE course_id = ?";
-            PreparedStatement preparedStatement = conn.prepareStatement(query);
-            preparedStatement.setString(1,coursecode);
-            int rowsAffected = preparedStatement.executeUpdate();
 
-            return rowsAffected>0;
+            // Delete from student_courses first
+            String deleteStudentCoursesQuery = "DELETE FROM student_courses WHERE course_id = ?";
+            try (PreparedStatement studentCoursesStatement = conn.prepareStatement(deleteStudentCoursesQuery)) {
+                studentCoursesStatement.setString(1, coursecode);
+                studentCoursesStatement.executeUpdate();
+            }
 
+            // Now delete from courses
+            String deleteCourseQuery = "DELETE FROM courses WHERE course_id = ?";
+            try (PreparedStatement courseStatement = conn.prepareStatement(deleteCourseQuery)) {
+                courseStatement.setString(1, coursecode);
+                int rowsAffected = courseStatement.executeUpdate();
+                return rowsAffected > 0;
+            }
+
+        }catch(Exception e){
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    @Override
+    public boolean removeCourseFromRegistration(String coursecode) {
+        Connection conn = DBconnect.getConn();
+        String deleteStudentCoursesQuery = "DELETE FROM student_courses WHERE course_id = ?";
+        try (PreparedStatement studentCoursesStatement = conn.prepareStatement(deleteStudentCoursesQuery)) {
+            studentCoursesStatement.setString(1, coursecode);
+            int rowsAffected = studentCoursesStatement.executeUpdate();
+            return rowsAffected > 0;
         }catch(Exception e){
             e.printStackTrace();
             return false;

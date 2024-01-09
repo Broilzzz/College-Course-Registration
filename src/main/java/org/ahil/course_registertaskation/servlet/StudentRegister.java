@@ -36,7 +36,7 @@ public class StudentRegister extends HttpServlet {
             if(b.addStudent(student)){
                 resp.sendRedirect("student_login.jsp?registration=success");
             }else{
-                resp.sendRedirect("index.jsp?error=1");
+                resp.sendRedirect("signup.jsp?error=1");
             }
 
 

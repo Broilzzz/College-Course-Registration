@@ -57,6 +57,24 @@
 <%
     }
 %>
+
+<%
+    String err = request.getParameter("err");
+    if (err != null && err.equals("1")) {
+%>
+<p style="color: red;display: flex; justify-content: center; font-weight: bold; font-size: 20px">There was some error. Please try again</p>
+<%
+    }
+%>
+
+<%
+    String rr = request.getParameter("rr");
+    if (rr != null && rr.equals("1")) {
+%>
+<p style="color: green;display: flex; justify-content: center; font-weight: bold; font-size: 20px">Course Removed Successfully</p>
+<%
+    }
+%>
 <br>
 <br>
 
@@ -129,6 +147,7 @@
             <th>Slots </th>
             <th>Teachers </th>
             <th>Status </th>
+            <th>Remove Course from registration </th>
         </tr>
         <tr>
             <%
@@ -143,6 +162,12 @@
             <td><%=course.getSlots()%> </td>
             <td><%=course.getTeacher()%> </td>
             <td style="font-size: 17px; color: darkblue"><%=course.getStatus()%></td>
+            <td>
+                <form action="register_remove" method="post">
+                    <input type="hidden" name="coursecode" value="<%=course.getCourseCode()%>">
+                    <button type="submit" class="btn btn-danger">Remove</button>
+                </form>
+            </td>
 
         </tr>
         <%

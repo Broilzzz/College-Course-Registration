@@ -8,6 +8,7 @@ public interface CoursesDAO {
 
     boolean addCourse(Courses a);
     boolean removeCourse(String coursecode);
+    boolean removeCourseFromRegistration(String coursecode);
     List<Courses> printAllCourse();
 
 }
