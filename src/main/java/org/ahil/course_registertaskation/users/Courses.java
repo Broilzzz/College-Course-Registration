@@ -13,6 +13,9 @@ public class Courses {
     private String student_name_apply;
     private String status;
     private String faculty_id;
+    private String modification_status;
+
+
 
     public String getStatus() {
         return status;
@@ -126,5 +129,12 @@ public class Courses {
 
     public void setFaculty_id(String faculty_id) {
         this.faculty_id = faculty_id;
+    }
+    public String getModification_status() {
+        return modification_status;
+    }
+
+    public void setModification_status(String modification_status) {
+        this.modification_status = modification_status;
     }
 }

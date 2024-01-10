@@ -39,6 +39,8 @@
 <%@include file="faculty_navbar.jsp"%>
 
 
+
+
 <%
     HttpSession sess = request.getSession();
     String faculty_id = (String) sess.getAttribute("faculty_id");
@@ -50,6 +52,15 @@
 <h1 style="display: flex; justify-content: center; margin-top: 50px; font-size: 60px; font-weight: bold">Welcome <%=faculty_name1%></h1>
 
 <%
+    String edit = request.getParameter("edit");
+    if (edit != null && edit.equals("1")) {
+%>
+<p style="color: green; display: flex; justify-content: center; font-weight: bold; font-size: 20px">Course has been edited</p>
+<%
+    }
+%>
+
+<%
     String succ = request.getParameter("succ");
     if (succ != null && succ.equals("1")) {
 %>
@@ -59,9 +70,11 @@
 %>
 
 <div style="display: flex;margin-top: 20px; justify-content: center">
-    <%System.out.println("faculty_homepage id "+faculty_id);%>
-    <%System.out.println("faculty_homepage "+department);%>
     <a class="btn btn-primary" href="faculty_course_add.jsp?department=<%=department%>&faculty_id=<%=faculty_id%>" role="button" style="width: 130px; background-color: #198754;border-color: #198754">ADD COURSES</a>
+</div>
+
+<div style="display: flex;margin-top: 20px; justify-content: center">
+    <a class="btn btn-primary" href="edit_course.jsp" role="button" style="width: 130px; background-color: #198754;border-color: #198754">EDIT COURSE</a>
 </div>
 
 <h4 style="display: flex; justify-content: center;align-items: center;font-weight: bold;margin-top: 50px">Student under your course</h4>
@@ -175,6 +188,41 @@
 
     </table>
 </div>
+
+<h4 style="display: flex; justify-content: center;align-items: center;font-weight: bold;margin-top: 50px">Courses sent for edit</h4>
+
+<table style="display: flex; justify-content: center;align-items: center">
+    <tr>
+        <th >Course Id</th>
+        <th>Course name </th>
+        <th>Department</th>
+        <th>Description</th>
+        <th>Prerequisites</th>
+        <th>Credits </th>
+        <th>Slots </th>
+        <th>Status </th>
+    </tr>
+    <tr>
+        <%
+            FacultyDAO facultyDAO7 = new FacultyDAOimp(DBconnect.getConn());
+            List<Courses> appliedCourses7 = facultyDAO7.printAllEditReq(faculty_id);
+            for(Courses course7 : appliedCourses7){%>
+        <td><%=course7.getCourseCode()%></td>
+        <td><%=course7.getCourseName()%> </td>
+        <td><%=course7.getDepartment()%> </td>
+        <td><%=course7.getDescription()%> </td>
+        <td><%=course7.getPrerequisites()%> </td>
+        <td><%=course7.getCredits()%> </td>
+        <td><%=course7.getSlots()%> </td>
+        <td style="font-size: 17px; color: darkblue"><%=course7.getModification_status()%></td>
+    </tr>
+    <%
+        }
+    %>
+
+
+</table>
+
 
 </body>
 </html>

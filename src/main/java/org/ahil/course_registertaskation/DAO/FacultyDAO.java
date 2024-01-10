@@ -19,6 +19,7 @@ public interface FacultyDAO {
     String getFacultyDepartment(String id);
     List<Courses> printAllAppliedCourses(String faculty_id);
     List<Courses> printAllStudents(String faculty_id);
+    List<Courses> printAllEditReq(String faculty_id);
 
     boolean allowStudent(String student_id, String course_id);
     boolean declineStudent(String student_id, String course_id);

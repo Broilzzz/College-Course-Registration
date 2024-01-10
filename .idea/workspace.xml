@@ -10,7 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d39274fd-a986-4c21-b1e4-14ec45a04f97" name="Changes" comment="some updates">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/AdminCourseEdit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyEditCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/edit_course.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit_course.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAOimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAOimp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAOimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAOimp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/users/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/users/Courses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/coursestemplate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/coursestemplate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/faculty_homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/faculty_homepage.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +46,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -175,6 +189,8 @@
       <workItem from="1704518240184" duration="1621000" />
       <workItem from="1704519872603" duration="52424000" />
       <workItem from="1704825528134" duration="951000" />
+      <workItem from="1704899439484" duration="108000" />
+      <workItem from="1704901823456" duration="7180000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />

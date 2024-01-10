@@ -10,5 +10,11 @@ public interface CoursesDAO {
     boolean removeCourse(String coursecode);
     boolean removeCourseFromRegistration(String coursecode);
     List<Courses> printAllCourse();
+    boolean editCourse(Courses a);
+    boolean acceptEdit(String course_name, String description, String prerequisites, String credits, String slots, String course_id);
+    boolean declineEdit(String course_id);
+    List<Courses> printEditCourses();
+
+
 
 }

@@ -237,6 +237,39 @@ public class FacultyDAOimp implements  FacultyDAO{
     }
 
     @Override
+    public List<Courses> printAllEditReq(String faculty_id) {
+        List<Courses> list = new ArrayList<>();
+        Courses d = null;
+        FacultyDAO facultyDAO = new FacultyDAOimp();
+        String teacher = facultyDAO.getFacultyName(faculty_id);
+        try {
+            String query = "SELECT * FROM courses " +
+                    "WHERE teacher = ? AND modification_status != 'none'";
+            PreparedStatement preparedStatement = conn.prepareStatement(query);
+            preparedStatement.setString(1, teacher);
+            ResultSet rs = preparedStatement.executeQuery();
+
+            while (rs.next()) {
+                d = new Courses();
+                d.setCourseCode(rs.getString("course_id"));
+                d.setCourseName(rs.getString("course_name"));
+                d.setDepartment(rs.getString("department"));
+                d.setDescription(rs.getString("description"));
+                d.setPrerequisites(rs.getString("prerequisites"));
+                d.setCredits(rs.getString("credits"));
+                d.setSlots(rs.getString("slots"));
+                d.setModification_status("modification_status");
+                list.add(d);
+            }
+            return list;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return list;
+        }
+
+    }
+
+    @Override
     public boolean allowStudent(String student_id,String course_id) {
         boolean f = false;
         String query = "UPDATE student_courses SET status = 'approved' WHERE student_id = ? AND course_id = ?";

@@ -4,6 +4,8 @@
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.List" %>
 <%@ page import="org.ahil.course_registertaskation.db.DBconnect" %>
+<%@ page import="org.ahil.course_registertaskation.DAO.FacultyDAO" %>
+<%@ page import="org.ahil.course_registertaskation.DAO.FacultyDAOimp" %>
 <%--
 
   Created by IntelliJ IDEA.
@@ -41,10 +43,35 @@
 <%@include file="navbar.jsp"%>
 
 <div style="display: flex;margin-top: 20px">
-    <a class="btn btn-primary" href="index.jsp" role="button" style="width: 60px; margin-right: 600px;padding-bottom: 0; background-color: #198754; border-color: #198754">Back</a>
+    <a class="btn btn-primary" href="index.jsp" role="button" style="width: 60px; margin-right: 726px;padding-bottom: 0; background-color: #198754; border-color: #198754">Back</a>
     <a class="btn btn-primary" href="coursesmodify.jsp" role="button" style="width: 130px; display: flex; justify-content: center; align-items: center; background-color: #198754;border-color: #198754">ADD/REMOVE COURSES</a>
 </div>
+
+<div style="display: flex;margin-top: 20px; justify-content: center">
+    <a class="btn btn-primary" href="edit_course.jsp" role="button" style="width: 130px; background-color: #198754;border-color: #198754">EDIT COURSE</a>
+</div>
+
 <h2 style="display: flex; justify-content: center; font-size: 80px; font-weight: bold">All Courses</h2>
+
+
+<%
+    String edit = request.getParameter("edit");
+    if (edit != null && edit.equals("1")) {
+%>
+<p style="color: green; display: flex; justify-content: center; font-weight: bold; font-size: 20px">Course has been edited</p>
+<%
+    }
+%>
+
+<%
+    String erro = request.getParameter("erro");
+    if (erro != null && erro.equals("1")) {
+%>
+<p style="color: red; display: flex; justify-content: center; font-weight: bold; font-size: 20px">There was some Error</p>
+<%
+    }
+%>
+
 <%
     String success = request.getParameter("success");
     if (success != null && success.equals("success")) {
@@ -92,9 +119,6 @@
         </tr>
     <%}
     %>
-
-
-</table>
 
 </body>
 </html>
