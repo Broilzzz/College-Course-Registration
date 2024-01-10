@@ -133,6 +133,7 @@ Once that is done you can now run the project by click the run button at the top
     9. students can view all the applied courses and their status(applied,
     declined,pending)
     10. students can view their current courses that have been accepted
+    11. admin and faculty can edit course details
 
 ## Screenshots
 
