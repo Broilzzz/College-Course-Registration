@@ -136,6 +136,15 @@ Once that is done you can now run the project by click the run button at the top
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2024-01-10 200139](https://github.com/Broilzzz/cohort/assets/123230400/13efe024-25b1-4a27-918c-813a3b2a414e)
 
+Admin page
+![image](https://github.com/Broilzzz/cohort/assets/123230400/9da6d2be-0acc-4fb3-b876-1c9f14779f12)
+![image](https://github.com/Broilzzz/cohort/assets/123230400/42107537-2472-4e5c-970d-cf8a414d160d)
+![image](https://github.com/Broilzzz/cohort/assets/123230400/e6b2cf9b-4dc3-4a5f-8f96-49114bac8bcf)
 
+faculty Homepage
+![image](https://github.com/Broilzzz/cohort/assets/123230400/a1d142bd-5ef1-4004-a679-d815bab881bb)
+
+Student Homepage
+![image](https://github.com/Broilzzz/cohort/assets/123230400/168b4015-6321-4846-b0e2-c46698cf4b8b)
