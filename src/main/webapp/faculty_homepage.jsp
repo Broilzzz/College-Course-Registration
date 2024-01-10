@@ -185,44 +185,8 @@
             }
         %>
 
-
     </table>
 </div>
-
-<h4 style="display: flex; justify-content: center;align-items: center;font-weight: bold;margin-top: 50px">Courses sent for edit</h4>
-
-<table style="display: flex; justify-content: center;align-items: center">
-    <tr>
-        <th >Course Id</th>
-        <th>Course name </th>
-        <th>Department</th>
-        <th>Description</th>
-        <th>Prerequisites</th>
-        <th>Credits </th>
-        <th>Slots </th>
-        <th>Status </th>
-    </tr>
-    <tr>
-        <%
-            FacultyDAO facultyDAO7 = new FacultyDAOimp(DBconnect.getConn());
-            List<Courses> appliedCourses7 = facultyDAO7.printAllEditReq(faculty_id);
-            for(Courses course7 : appliedCourses7){%>
-        <td><%=course7.getCourseCode()%></td>
-        <td><%=course7.getCourseName()%> </td>
-        <td><%=course7.getDepartment()%> </td>
-        <td><%=course7.getDescription()%> </td>
-        <td><%=course7.getPrerequisites()%> </td>
-        <td><%=course7.getCredits()%> </td>
-        <td><%=course7.getSlots()%> </td>
-        <td style="font-size: 17px; color: darkblue"><%=course7.getModification_status()%></td>
-    </tr>
-    <%
-        }
-    %>
-
-
-</table>
-
 
 </body>
 </html>

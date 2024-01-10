@@ -10,17 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d39274fd-a986-4c21-b1e4-14ec45a04f97" name="Changes" comment="some updates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/AdminCourseEdit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/FacultyEditCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/edit_course.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit_course.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAOimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAOimp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAOimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/FacultyDAOimp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/users/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/users/Courses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/coursestemplate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/coursestemplate.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/faculty_homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/faculty_homepage.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +181,7 @@
       <workItem from="1704519872603" duration="52424000" />
       <workItem from="1704825528134" duration="951000" />
       <workItem from="1704899439484" duration="108000" />
-      <workItem from="1704901823456" duration="7180000" />
+      <workItem from="1704901823456" duration="7815000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -208,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704817530460</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some updates">
+      <option name="closed" value="true" />
+      <created>1704915182546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704915182546</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

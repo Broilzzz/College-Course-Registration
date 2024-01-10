@@ -117,7 +117,7 @@ public class CoursesDAOimp implements CoursesDAO {
     public boolean editCourse(Courses a) {
         String updateQuery = "UPDATE courses " +
                 "SET course_name = ?, description = ?, prerequisites = ?, " +
-                "credits = ?, slots = ?, modification_status = 'pending' " +
+                "credits = ?, slots = ?" +
                 "WHERE course_id = ?";
 
 
@@ -144,7 +144,6 @@ public class CoursesDAOimp implements CoursesDAO {
         String updateCoursesQuery = "UPDATE courses " +
                 "SET course_name = ?, description = ?, " +
                 "prerequisites = ?, credits = ?, slots = ?, " +
-                "modification_status = 'none' " +
                 "WHERE course_id = ?";
 
         try (Connection conn = DBconnect.getConn();
