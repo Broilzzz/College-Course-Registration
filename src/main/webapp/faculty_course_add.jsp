@@ -140,7 +140,7 @@
             <input type="text" name="description" placeholder="description (if none type none)"/>
             <input type="text" name="credits" placeholder="credits"/>
             <input type="text" name="prerequisites" placeholder="prerequisites (if none type none)"/>
-            <input type="text" name="faculty_id" placeholder="Faculty Id Number"/>
+            <input type="hidden" name="faculty_id" value="<%=request.getParameter("faculty_id")%>"/>
             <input type="text" name="slots" placeholder="slots"/>
 
             <button>ADD</button>

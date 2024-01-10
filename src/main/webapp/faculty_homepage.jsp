@@ -61,7 +61,7 @@
 <div style="display: flex;margin-top: 20px; justify-content: center">
     <%System.out.println("faculty_homepage id "+faculty_id);%>
     <%System.out.println("faculty_homepage "+department);%>
-    <a class="btn btn-primary" href="faculty_course_add.jsp?department=<%=department%>" role="button" style="width: 130px; background-color: #198754;border-color: #198754">ADD COURSES</a>
+    <a class="btn btn-primary" href="faculty_course_add.jsp?department=<%=department%>&faculty_id=<%=faculty_id%>" role="button" style="width: 130px; background-color: #198754;border-color: #198754">ADD COURSES</a>
 </div>
 
 <h4 style="display: flex; justify-content: center;align-items: center;font-weight: bold;margin-top: 50px">Student under your course</h4>
