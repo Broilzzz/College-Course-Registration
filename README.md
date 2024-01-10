@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS student_courses (
     id INT PRIMARY KEY AUTO_INCREMENT,
     student_id VARCHAR(255),
     course_id VARCHAR(255),
-    status ENUM('pending', 'approved', 'declined'),
+    status ENUM('pending', 'approved', 'declined') DEFAULT 'pending',
     faculty_id VARCHAR(255),
     FOREIGN KEY (student_id) REFERENCES students(studentid),
     FOREIGN KEY (course_id) REFERENCES courses(course_id),
