@@ -7,12 +7,20 @@ Students can then apply to these courses of respective branches. the faculty can
 
 ## Demo Video Of The Project
 
-link
+Google Drive Link to See the video: https://drive.google.com/file/d/1q-iCVw5x392iyG2Oa-Ih9RI5uDNDkwmZ/view?usp=sharing
+
+use this link if the previous video is not working: https://drive.google.com/file/d/1NprrLzrhSvi7kxtsFO4liLeFWo9NwCzf/view?usp=sharing 
 
 
 ## Installation
 
-download mySQL from this website https://dev.mysql.com/downloads/installer/
+Firstly Download java JDK if you dont have it already from this website: https://www.oracle.com/java/technologies/downloads/#jdk21-windows
+
+
+If you are still confused, use this video for reference: https://www.youtube.com/watch?v=4Bp3AbR8ne8&ab_channel=AmitThinks
+
+
+Now, download mySQL from this website https://dev.mysql.com/downloads/installer/
 
 go for custom setup type and select these options:
 1. mySQL Server 8.0.35
@@ -116,6 +124,8 @@ Now got to the project and file under `src/main/java/org.ahil.course_registertas
 as we need to connect our MySQL Database to our IDE using `JDBC`
 
 Change the username and password to what you have initialized on your MySQL.
+
+Also note that the password for admin Login page is `admin` and the username is `admin@gmail.com`
 
 Once that is done you can now run the project by click the run button at the top
 ## List of Implemented Features
