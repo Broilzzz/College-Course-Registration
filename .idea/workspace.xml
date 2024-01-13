@@ -11,8 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d39274fd-a986-4c21-b1e4-14ec45a04f97" name="Changes" comment="some updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAOimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/DAO/CoursesDAOimp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/faculty_homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/faculty_homepage.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +180,9 @@
       <workItem from="1704825528134" duration="951000" />
       <workItem from="1704899439484" duration="108000" />
       <workItem from="1704901823456" duration="7815000" />
+      <workItem from="1704915753570" duration="47000" />
+      <workItem from="1705070221665" duration="3701000" />
+      <workItem from="1705083499094" duration="1425000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />

@@ -43,7 +43,7 @@
 <%@include file="navbar.jsp"%>
 
 <div style="display: flex;margin-top: 20px">
-    <a class="btn btn-primary" href="index.jsp" role="button" style="width: 60px; margin-right: 726px;padding-bottom: 0; background-color: #198754; border-color: #198754">Back</a>
+    <a class="btn btn-primary" href="index.jsp" role="button" style="width: 60px; margin-right: 643px;padding-bottom: 0; background-color: #198754; border-color: #198754">Back</a>
     <a class="btn btn-primary" href="coursesmodify.jsp" role="button" style="width: 130px; display: flex; justify-content: center; align-items: center; background-color: #198754;border-color: #198754">ADD/REMOVE COURSES</a>
 </div>
 
