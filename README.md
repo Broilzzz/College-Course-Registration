@@ -7,12 +7,20 @@ Students can then apply to these courses of respective branches. the faculty can
 
 ## Demo Video Of The Project
 
-link
+Google Drive Link to See the video: https://drive.google.com/file/d/1q-iCVw5x392iyG2Oa-Ih9RI5uDNDkwmZ/view?usp=sharing
+
+use this link if the previous video is not working: https://drive.google.com/file/d/1NprrLzrhSvi7kxtsFO4liLeFWo9NwCzf/view?usp=sharing 
 
 
-## Installation
+## Installation And Setup
 
-download mySQL from this website https://dev.mysql.com/downloads/installer/
+Firstly Download java JDK if you dont have it already from this website: https://www.oracle.com/java/technologies/downloads/#jdk21-windows
+
+
+If you are still confused, use this video for reference: https://www.youtube.com/watch?v=4Bp3AbR8ne8&ab_channel=AmitThinks
+
+
+Now, download mySQL from this website https://dev.mysql.com/downloads/installer/
 
 go for custom setup type and select these options:
 1. mySQL Server 8.0.35
@@ -117,6 +125,8 @@ as we need to connect our MySQL Database to our IDE using `JDBC`
 
 Change the username and password to what you have initialized on your MySQL.
 
+Also note that the password for admin Login page is `admin` and the username is `admin@gmail.com`
+
 Once that is done you can now run the project by click the run button at the top
 ## List of Implemented Features
 
@@ -139,13 +149,33 @@ Once that is done you can now run the project by click the run button at the top
 
 ![Screenshot 2024-01-10 200139](https://github.com/Broilzzz/cohort/assets/123230400/13efe024-25b1-4a27-918c-813a3b2a414e)
 
+Admin Login
+![image](https://github.com/Broilzzz/cohort/assets/123230400/197fea52-7775-46b6-a338-ff8a3864fdf6)
+
+
 Admin page
 ![image](https://github.com/Broilzzz/cohort/assets/123230400/9da6d2be-0acc-4fb3-b876-1c9f14779f12)
 ![image](https://github.com/Broilzzz/cohort/assets/123230400/42107537-2472-4e5c-970d-cf8a414d160d)
+![image](https://github.com/Broilzzz/cohort/assets/123230400/15288c64-2b92-4a2e-a221-a5b6ea5b9a66)
 ![image](https://github.com/Broilzzz/cohort/assets/123230400/e6b2cf9b-4dc3-4a5f-8f96-49114bac8bcf)
+
+faculty login
+![image](https://github.com/Broilzzz/cohort/assets/123230400/e1fb08aa-806f-4684-9d54-1ef99db82ac2)
+
+faculty add course
+![image](https://github.com/Broilzzz/cohort/assets/123230400/554eb3b6-390f-4862-874d-18ac97230c26)
+
+faculty edit course
+![image](https://github.com/Broilzzz/cohort/assets/123230400/f7361cbc-8176-4e95-8e78-ec0a34093b29)
 
 faculty Homepage
 ![image](https://github.com/Broilzzz/cohort/assets/123230400/a1d142bd-5ef1-4004-a679-d815bab881bb)
+
+student login page
+![image](https://github.com/Broilzzz/cohort/assets/123230400/63085f46-bb58-4d3d-9ce8-f800533ec5f0)
+
+Students add course page
+![image](https://github.com/Broilzzz/cohort/assets/123230400/230902f1-ee13-4bfe-8107-4b2bdd30ba55)
 
 Student Homepage
 ![image](https://github.com/Broilzzz/cohort/assets/123230400/168b4015-6321-4846-b0e2-c46698cf4b8b)
