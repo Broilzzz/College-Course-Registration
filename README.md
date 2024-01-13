@@ -12,7 +12,7 @@ Google Drive Link to See the video: https://drive.google.com/file/d/1q-iCVw5x392
 use this link if the previous video is not working: https://drive.google.com/file/d/1NprrLzrhSvi7kxtsFO4liLeFWo9NwCzf/view?usp=sharing 
 
 
-## Installation
+## Installation And Setup
 
 Firstly Download java JDK if you dont have it already from this website: https://www.oracle.com/java/technologies/downloads/#jdk21-windows
 
