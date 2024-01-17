@@ -5,6 +5,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 import java.util.Locale;
@@ -17,6 +18,8 @@ public class Admin_login extends HttpServlet {
         String password = req.getParameter("password");
 
         if(name.equals("admin@gmail.com") && password.equals("admin")){
+            HttpSession session3 = req.getSession();
+            session3.setAttribute("adminAuthenticated", true);
             resp.sendRedirect("admin/index.jsp");
         }else{
             resp.sendRedirect("admin_login.jsp?error=1");

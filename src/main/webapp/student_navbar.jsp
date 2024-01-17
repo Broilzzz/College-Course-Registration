@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent" style="display: flex;justify-content: end;align-items: end; font-size: large">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="student_login.jsp">Logout <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="${pageContext.request.contextPath}/student_logout">Logout <span class="sr-only">(current)</span></a>
             </li>
 
             <%--            <li class="nav-item dropdown">--%>

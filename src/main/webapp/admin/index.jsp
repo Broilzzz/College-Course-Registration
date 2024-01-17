@@ -9,6 +9,18 @@
 <body>
 <%@include file="navbar.jsp"%>
 
+<%
+    HttpSession session2 = request.getSession();
+    Object adminAuthenticated = session2.getAttribute("adminAuthenticated");
+
+    // Check if the user is authenticated as admin
+    if (adminAuthenticated == null || !(Boolean)adminAuthenticated) {
+        // Redirect to the login page if not authenticated
+        response.sendRedirect(request.getContextPath() + "/admin_logout");
+
+    }
+%>
+
 <h1 style="display: flex; justify-content: center; margin-top: 50px; font-size: 60px; font-weight: bold" >Admin Dashboard</h1>
 <div class="container" style="display: flex; justify-content: space-evenly; margin-top: 100px">
     <div class="card1" style="width: 18rem; display: flex; justify-content: center; align-items: center">

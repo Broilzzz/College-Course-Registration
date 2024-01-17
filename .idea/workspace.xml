@@ -10,7 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d39274fd-a986-4c21-b1e4-14ec45a04f97" name="Changes" comment="some updates">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/Admin_logout_Redirect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentLogout_Redirect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/Admin_login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/Admin_login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ahil/course_registertaskation/servlet/StudentLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/student_home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/student_home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/student_navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/student_navbar.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +190,9 @@
       <workItem from="1704901823456" duration="7815000" />
       <workItem from="1704915753570" duration="47000" />
       <workItem from="1705070221665" duration="3701000" />
-      <workItem from="1705083499094" duration="1425000" />
+      <workItem from="1705083499094" duration="2163000" />
+      <workItem from="1705215207962" duration="12000" />
+      <workItem from="1705500041764" duration="4422000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -208,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704915182546</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some updates">
+      <option name="closed" value="true" />
+      <created>1705155293739</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705155293739</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

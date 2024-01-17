@@ -24,9 +24,11 @@ public class StudentLogin extends HttpServlet {
             String studentName = st.getStudentName(id);
             String department = st.getDepartment(id);
             HttpSession session = req.getSession();
+            session.setAttribute("studentAuthenticated", true);
             session.setAttribute("name",studentName );
             session.setAttribute("department",department);
             session.setAttribute("student_id",id);
+            System.out.println("im in student login");
             resp.sendRedirect("student_home.jsp");
         }else{
             resp.sendRedirect("student_login.jsp?error=1");

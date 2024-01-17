@@ -38,7 +38,12 @@
 <%
     HttpSession session1 = request.getSession();
     String studentName = (String) session1.getAttribute("name");
-    if(studentName==null){studentName= "name not added";}
+    Object studentAuthenticated = session1.getAttribute("studentAuthenticated");
+    if (studentAuthenticated == null || !(Boolean)studentAuthenticated) {
+        // Redirect to the login page if not authenticated
+        response.sendRedirect(request.getContextPath() + "/student_logout");
+
+    }
 %>
 <%@include file="student_navbar.jsp"%>
 <div style="display: flex;margin-top: 20px;justify-content: center">
